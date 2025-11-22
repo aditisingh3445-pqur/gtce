@@ -1,0 +1,85 @@
+\section{\SectionIi \ (ILA 1.1, 1.2)}
+
+\vspace{12pt}
+
+\subsection{Studio Organization}
+    This worksheet is a bit shorter than most other worksheets to give time to discuss course and studio organization. We will discuss:
+    \begin{enumerate}[label=\Alph*)]
+        \item What are studios? How are they different from lectures? \vfill
+        \item How do TAs support your class? \vfill
+        \item Studio recordings and worksheet solutions. \vfill
+        \item How students can ask questions during studio. \vfill
+        \item Office hours (please attend them!). \vfill
+        \item General advice on how to succeed in linear algebra (and college!). \vfill
+    \end{enumerate}
+\newpage 
+\subsection{Linear Systems}
+
+A \Emph{linear system} is a set of linear equations. An example of a linear system with two equations is 
+\begin{align*}
+\begin{matrix}
+ x +  3y &= \ 4
+ \\[2pt]
+ 5 x  + 6y & = \ 5
+\end{matrix}
+\end{align*}
+
+We might want to know:
+
+\begin{itemize}
+    \item what values of the unknowns satisfy all equations in the system, if any? 
+    \item what procedure do we want to use to identify those values? 
+\end{itemize}
+
+\newpage
+\subsection{\TitleExercises}
+
+    % \TACirculates
+    
+    \begin{enumerate}
+        \item \PromptDescribe \ It is best if we go through these questions one at a time. 
+        \begin{enumerate}
+            \item What does it mean for a linear system to be consistent? 
+            \vfill
+            \item How can we determine whether a linear system is consistent?
+            \vfill                  
+            \item What are the three row operations that we can use to reduce a matrix?  
+            \vfill                   
+            \item What does it mean for a system to have a unique solution? 
+            \vfill             
+            \item What does it mean for two matrices to be row equivalent?       \vfill
+        \end{enumerate}
+        \newpage 
+        % \item For what values of $h$ is the system consistent?
+        %     \begin{align*}
+        %     x_1 = 4, \qquad 2x_1 + h  x_2 + x_3= 8, \qquad h x_3 = 0
+        %     \end{align*}
+        \item \TorFshort
+        \begin{enumerate}
+            \item If a linear system has more equations than unknowns, then the system cannot have a unique solution.
+            \item If a linear system has more unknowns than equations, then the system could have an infinite number of solutions, or the system could have no solutions.
+        \end{enumerate}
+        Before moving on - what strategies does your TA(s) recommend that students can use to approach true/false questions? 
+        \newpage 
+        \item For what values of $A$ and $B$, if any, does the system have  (a) an infinite number of solutions?  (b) no solutions? (c) exactly one solution? 
+        \begin{align*}
+            x_1 + 2x_2 &= 1 \\
+            Ax_1 + Bx_2 &= 2
+        \end{align*}
+        For the case where there are an infinite number of solutions, sketch the set of solutions. Note that sketches need to have labeled axes. The set of solutions should be a line that does not have arrows. 
+        % \item Sketch the set of solutions to the linear system. 
+        % \begin{align*}
+        %     x - 4y &= 0 \\
+        %     -2x +8y &= 0
+        % \end{align*}    
+        \newpage 
+
+        \item Consider the line $x_2 = 2x_1$. 
+        \begin{enumerate}
+            \item Sketch any two points on the line. In this class we will always put $x_1$ on the horizontal axis. 
+            \item Sketch the line. 
+            \item Construct a linear system of equations so that the line is the solution set. Use at least two equations. How many equations could you have in your system?  
+            \item If the point $(a,b)$ is any point in the solution set, is the point $(ka,kb)$ also in the solution set for any real number $k$? 
+        \end{enumerate}
+    \end{enumerate}
+
